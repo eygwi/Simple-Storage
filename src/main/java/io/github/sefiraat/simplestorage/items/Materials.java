@@ -78,16 +78,16 @@ public final class Materials {
         new UnplaceableBlock(Categories.MAT, SimpleStorageItemStacks.DISPLAY_PANEL, RecipeType.ENHANCED_CRAFTING_TABLE, SimpleStorageRecipes.DISPLAY_PANEL).register(p);
 
         AContainer heatedPressureChamber = (AContainer) SlimefunItems.HEATED_PRESSURE_CHAMBER.getItem();
-        heatedPressureChamber.registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_INGOT, SimpleStorageItemStacks.BASTNAESITE_INGOT}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_REINFORCED});
-        heatedPressureChamber.registerRecipe(100, new ItemStack[]{SimpleStorageItemStacks.PEWTER_INGOT, SimpleStorageItemStacks.ANTIMONY_INGOT}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_REINFORCED});
-        heatedPressureChamber.registerRecipe(150, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE}, new ItemStack[]{SimpleStorageItemStacks.COMBINED_PLATE});
-        heatedPressureChamber.registerRecipe(30, new ItemStack[]{SimpleStorageItemStacks.NISIL, SimpleStorageItemStacks.NICROSIL}, new ItemStack[]{SimpleStorageItemStacks.THERMOCOUPLE});
+        heatedPressureChamber.registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_INGOT.item(), SimpleStorageItemStacks.BASTNAESITE_INGOT.item()}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item()});
+        heatedPressureChamber.registerRecipe(100, new ItemStack[]{SimpleStorageItemStacks.PEWTER_INGOT.item(), SimpleStorageItemStacks.ANTIMONY_INGOT.item()}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_REINFORCED.item()});
+        heatedPressureChamber.registerRecipe(150, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE.item()}, new ItemStack[]{SimpleStorageItemStacks.COMBINED_PLATE.item()});
+        heatedPressureChamber.registerRecipe(30, new ItemStack[]{SimpleStorageItemStacks.NISIL.item(), SimpleStorageItemStacks.NICROSIL.item()}, new ItemStack[]{SimpleStorageItemStacks.THERMOCOUPLE.item()});
 
         AContainer heatedPressureChamber2 = (AContainer) SlimefunItems.HEATED_PRESSURE_CHAMBER_2.getItem();
-        heatedPressureChamber2.registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_INGOT, SimpleStorageItemStacks.BASTNAESITE_INGOT}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_REINFORCED});
-        heatedPressureChamber2.registerRecipe(100, new ItemStack[]{SimpleStorageItemStacks.PEWTER_INGOT, SimpleStorageItemStacks.ANTIMONY_INGOT}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_REINFORCED});
-        heatedPressureChamber2.registerRecipe(150, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE}, new ItemStack[]{SimpleStorageItemStacks.COMBINED_PLATE});
-        heatedPressureChamber2.registerRecipe(30, new ItemStack[]{SimpleStorageItemStacks.NISIL, SimpleStorageItemStacks.NICROSIL}, new ItemStack[]{SimpleStorageItemStacks.THERMOCOUPLE});
+        heatedPressureChamber2.registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_INGOT.item(), SimpleStorageItemStacks.BASTNAESITE_INGOT.item()}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item()});
+        heatedPressureChamber2.registerRecipe(100, new ItemStack[]{SimpleStorageItemStacks.PEWTER_INGOT.item(), SimpleStorageItemStacks.ANTIMONY_INGOT.item()}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_REINFORCED.item()});
+        heatedPressureChamber2.registerRecipe(150, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE.item()}, new ItemStack[]{SimpleStorageItemStacks.COMBINED_PLATE.item()});
+        heatedPressureChamber2.registerRecipe(30, new ItemStack[]{SimpleStorageItemStacks.NISIL.item(), SimpleStorageItemStacks.NICROSIL.item()}, new ItemStack[]{SimpleStorageItemStacks.THERMOCOUPLE.item()});
 
     }
 

@@ -31,7 +31,7 @@ public abstract class AbstractCache {
             if (page > 20) {
                 skullID = 21;
             }
-            blockMenu.replaceExistingItem(0, new CustomItemStack(
+            blockMenu.replaceExistingItem(0, CustomItemStack.create(
                     PlayerHead.getItemStack(PlayerSkin.fromBase64(guiNumbers.get(skullID))),
                     Theme.GUI_HEAD + "Info",
                     "",
@@ -48,7 +48,7 @@ public abstract class AbstractCache {
             if (page > 20) {
                 skullID = 21;
             }
-            blockMenu.replaceExistingItem(0, new CustomItemStack(
+            blockMenu.replaceExistingItem(0, CustomItemStack.create(
                     PlayerHead.getItemStack(PlayerSkin.fromBase64(guiNumbers.get(skullID))),
                     Theme.GUI_HEAD + "Info",
                     "",

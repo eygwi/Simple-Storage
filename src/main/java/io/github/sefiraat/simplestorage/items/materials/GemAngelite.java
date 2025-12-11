@@ -26,20 +26,20 @@ public final class GemAngelite extends AbstractGem {
     public int getDefaultSupply(@Nonnull World.Environment environment, @Nonnull Biome biome) {
         switch (environment) {
             case NORMAL:
-                switch (biome) {
-                    case SNOWY_BEACH:
-                    case SNOWY_MOUNTAINS:
-                    case SNOWY_TAIGA:
-                    case SNOWY_TAIGA_HILLS:
-                    case SNOWY_TAIGA_MOUNTAINS:
-                    case SNOWY_TUNDRA:
-                    case COLD_OCEAN:
-                    case DEEP_COLD_OCEAN:
+                String biomeKey = biome.getKey().getKey();
+                switch (biomeKey) {
+                    case "snowy_beach":
+                    case "snowy_taiga":
+                    case "snowy_plains":
+                    case "cold_ocean":
+                    case "deep_cold_ocean":
                         return 25;
-                    case ICE_SPIKES:
-                    case FROZEN_OCEAN:
-                    case FROZEN_RIVER:
-                    case DEEP_FROZEN_OCEAN:
+                    case "ice_spikes":
+                    case "frozen_ocean":
+                    case "frozen_river":
+                    case "deep_frozen_ocean":
+                    case "frozen_peaks":
+                    case "jagged_peaks":
                         return 40;
                     default:
                         return 5;

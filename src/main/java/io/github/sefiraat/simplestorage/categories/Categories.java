@@ -9,6 +9,7 @@ import io.github.thebusybiscuit.slimefun4.libraries.dough.items.CustomItemStack;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerHead;
 import io.github.thebusybiscuit.slimefun4.libraries.dough.skins.PlayerSkin;
 import org.bukkit.NamespacedKey;
+import org.bukkit.inventory.ItemStack;
 
 public final class Categories {
 
@@ -16,32 +17,32 @@ public final class Categories {
         throw new IllegalStateException("Utility class");
     }
 
-    public static CustomItemStack catSimpleStorageMain() {
-        return new CustomItemStack(
+    public static ItemStack catSimpleStorageMain() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_CORE)),
                 Theme.MAIN + "Simple Storage"
         );
     }
-    public static CustomItemStack catSimpleStorageMaterials() {
-        return new CustomItemStack(
+    public static ItemStack catSimpleStorageMaterials() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_MATERIALS)),
                 Theme.MAIN + "Simple Storage Materials"
         );
     }
-    public static CustomItemStack catSimpleStorageItems() {
-        return new CustomItemStack(
+    public static ItemStack catSimpleStorageItems() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_ITEMS)),
                 Theme.MAIN + "Simple Storage Items"
         );
     }
-    public static CustomItemStack catSimpleStorageMachines() {
-        return new CustomItemStack(
+    public static ItemStack catSimpleStorageMachines() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_MACHINES)),
                 Theme.MAIN + "Simple Storage Machines"
         );
     }
-    public static CustomItemStack catSimpleStorageChests() {
-        return new CustomItemStack(
+    public static ItemStack catSimpleStorageChests() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.CAT_CHESTS)),
                 Theme.MAIN + "Simple Storage Chests/Cells"
         );

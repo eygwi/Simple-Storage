@@ -12,213 +12,213 @@ public final class SimpleStorageRecipes {
     }
 
     protected static final ItemStack[] CHROMIUM_DUST = new ItemStack[] {
-                SimpleStorageItemStacks.CHUNK_CHROMITE,    null,   null,
+                SimpleStorageItemStacks.CHUNK_CHROMITE.item(),    null,   null,
                 null,                   null,   null,
                 null,                   null,   null
     };
     protected static final ItemStack[] BASTNAESITE_DUST = new ItemStack[] {
-                SimpleStorageItemStacks.CHUNK_BASTNAESITE,    null,   null,
+                SimpleStorageItemStacks.CHUNK_BASTNAESITE.item(),    null,   null,
                 null,                   null,   null,
                 null,                   null,   null
     };
     protected static final ItemStack[] ANTIMONY_DUST = new ItemStack[] {
-                SimpleStorageItemStacks.CHUNK_ANTIMONY,    null,   null,
+                SimpleStorageItemStacks.CHUNK_ANTIMONY.item(),    null,   null,
                 null,                   null,   null,
                 null,                   null,   null
     };
     protected static final ItemStack[] RHENIUM_DUST = new ItemStack[] {
-                SimpleStorageItemStacks.RHENIUM_CHUNK,     null,   null,
+                SimpleStorageItemStacks.RHENIUM_CHUNK.item(),     null,   null,
                 null,                   null,   null,
                 null,                   null,   null
     };
     protected static final ItemStack[] CHROMIUM_INGOT = new ItemStack[] {
-                SimpleStorageItemStacks.CHROMIUM_DUST, null,      null,
+                SimpleStorageItemStacks.CHROMIUM_DUST.item(), null,      null,
                 null,               null,      null,
                 null,               null,      null
     };
     protected static final ItemStack[] BASTNAESITE_INGOT = new ItemStack[] {
-                SimpleStorageItemStacks.BASTNAESITE_DUST,  null,      null,
+                SimpleStorageItemStacks.BASTNAESITE_DUST.item(),  null,      null,
                 null,                   null,      null,
                 null,                   null,      null
     };
     protected static final ItemStack[] ANTIMONY_INGOT = new ItemStack[] {
-                SimpleStorageItemStacks.ANTIMONY_DUST,  null,      null,
+                SimpleStorageItemStacks.ANTIMONY_DUST.item(),  null,      null,
                 null,                   null,      null,
                 null,                   null,      null
     };
     protected static final ItemStack[] RHENIUM_INGOT = new ItemStack[] {
-                SimpleStorageItemStacks.RHENIUM_DUST,    null,      null,
+                SimpleStorageItemStacks.RHENIUM_DUST.item(),    null,      null,
                 null,                 null,      null,
                 null,                 null,      null
     };
     protected static final ItemStack[] ELECTRUM_INGOT = new ItemStack[] {
-                SlimefunItems.GOLD_6K,  SlimefunItems.SILVER_DUST,  null,
+                SlimefunItems.GOLD_6K.item(),  SlimefunItems.SILVER_DUST.item(),  null,
                 null,                   null,                       null,
                 null,                   null,                       null
     };
     protected static final ItemStack[] CUPRONICKEL_INGOT = new ItemStack[] {
-                SlimefunItems.COPPER_INGOT, SlimefunItems.COPPER_DUST, SlimefunItems.NICKEL_INGOT,
+                SlimefunItems.COPPER_INGOT.item(), SlimefunItems.COPPER_DUST.item(), SlimefunItems.NICKEL_INGOT.item(),
                 null,                       null,                       null,
                 null,                       null,                       null
     };
     protected static final ItemStack[] PEWTER_INGOT = new ItemStack[] {
-            SlimefunItems.TIN_INGOT,    SlimefunItems.TIN_DUST, SlimefunItems.SILVER_INGOT,
-            SlimefunItems.SILVER_DUST,  null,                   null,
+            SlimefunItems.TIN_INGOT.item(),    SlimefunItems.TIN_DUST.item(), SlimefunItems.SILVER_INGOT.item(),
+            SlimefunItems.SILVER_DUST.item(),  null,                   null,
             null,                       null,                   null
     };
     protected static final ItemStack[] NICKEL_SUPERALLOY_INGOT = new ItemStack[] {
-            SimpleStorageItemStacks.RHENIUM_INGOT,  SlimefunItems.NICKEL_INGOT, SlimefunItems.COBALT_INGOT,
-            SlimefunItems.COPPER_INGOT,             SlimefunItems.IRON_DUST,    null,
+            SimpleStorageItemStacks.RHENIUM_INGOT.item(),  SlimefunItems.NICKEL_INGOT.item(), SlimefunItems.COBALT_INGOT.item(),
+            SlimefunItems.COPPER_INGOT.item(),             SlimefunItems.IRON_DUST.item(),    null,
             null,                                   null,                       null
     };
     protected static final ItemStack[] ZAMAK_1 = new ItemStack[] {
-                SlimefunItems.ZINC_INGOT,   SlimefunItems.ALUMINUM_DUST,    SlimefunItems.COPPER_DUST,
+                SlimefunItems.ZINC_INGOT.item(),   SlimefunItems.ALUMINUM_DUST.item(),    SlimefunItems.COPPER_DUST.item(),
                 null,                       null,                           null,
                 null,                       null,                           null
     };
     protected static final ItemStack[] ZAMAK_2 = new ItemStack[] {
-                SimpleStorageItemStacks.ZAMAK_1, SlimefunItems.COPPER_DUST,  null,
+                SimpleStorageItemStacks.ZAMAK_1.item(), SlimefunItems.COPPER_DUST.item(),  null,
                 null,         null,                       null,
                 null,         null,                       null
     };
     protected static final ItemStack[] ZAMAK_3 = new ItemStack[] {
-                SimpleStorageItemStacks.ZAMAK_2, SlimefunItems.MAGNESIUM_INGOT,  SlimefunItems.MAGNESIUM_DUST,
+                SimpleStorageItemStacks.ZAMAK_2.item(), SlimefunItems.MAGNESIUM_INGOT.item(),  SlimefunItems.MAGNESIUM_DUST.item(),
                 null,                               null,                           null,
                 null,                               null,                           null
     };
     protected static final ItemStack[] NISIL = new ItemStack[] {
-                SlimefunItems.NICKEL_INGOT, SlimefunItems.SILICON,      new ItemStack(Material.SAND),
+                SlimefunItems.NICKEL_INGOT.item(), SlimefunItems.SILICON.item(),      new ItemStack(Material.SAND),
                 null,                       null,                       null,
                 null,                       null,                       null
     };
     protected static final ItemStack[] NICROSIL = new ItemStack[] {
-                SlimefunItems.NICKEL_INGOT, SlimefunItems.SILICON,      SimpleStorageItemStacks.CHROMIUM_INGOT,
+                SlimefunItems.NICKEL_INGOT.item(), SlimefunItems.SILICON.item(),      SimpleStorageItemStacks.CHROMIUM_INGOT.item(),
                 null,                       null,                       null,
                 null,                       null,                       null
     };
     protected static final ItemStack[] CUPRONICKEL_REINFORCED = new ItemStack[] {
-                SimpleStorageItemStacks.CUPRONICKEL_INGOT, SimpleStorageItemStacks.BASTNAESITE_INGOT, null,
+                SimpleStorageItemStacks.CUPRONICKEL_INGOT.item(), SimpleStorageItemStacks.BASTNAESITE_INGOT.item(), null,
                 null,              null,                   null,
                 null,              null,                   null
     };
     protected static final ItemStack[] PEWTER_REINFORCED = new ItemStack[] {
-                SimpleStorageItemStacks.PEWTER_INGOT,   SimpleStorageItemStacks.ANTIMONY_INGOT, null,
+                SimpleStorageItemStacks.PEWTER_INGOT.item(),   SimpleStorageItemStacks.ANTIMONY_INGOT.item(), null,
                 null,           null,                null,
                 null,           null,                null
     };
     protected static final ItemStack[] ELECTRUM_PLATE = new ItemStack[] {
-                SimpleStorageItemStacks.DIE_BASIC,    new SlimefunItemStack(SimpleStorageItemStacks.ELECTRUM_INGOT, 4),   null,
+                SimpleStorageItemStacks.DIE_BASIC.item(),    new SlimefunItemStack(SimpleStorageItemStacks.ELECTRUM_INGOT, 4).item(),   null,
                 null,              null,                                              null,
                 null,              null,                                              null
     };
     protected static final ItemStack[] CUPRONICKEL_PLATE = new ItemStack[] {
-                SimpleStorageItemStacks.DIE_REINFORCED, new SlimefunItemStack(SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, 4), null,
+                SimpleStorageItemStacks.DIE_REINFORCED.item(), new SlimefunItemStack(SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, 4).item(), null,
                 null,                null,                                                          null,
                 null,                null,                                                          null
     };
     protected static final ItemStack[] PEWTER_PLATE = new ItemStack[] {
-                SimpleStorageItemStacks.DIE_ADVANCED,   new SlimefunItemStack(SimpleStorageItemStacks.PEWTER_REINFORCED, 4), null,
+                SimpleStorageItemStacks.DIE_ADVANCED.item(),   new SlimefunItemStack(SimpleStorageItemStacks.PEWTER_REINFORCED, 4).item(), null,
                 null,                null,                                             null,
                 null,                null,                                             null
     };
     protected static final ItemStack[] NICKEL_SUPERALLOY_PLATE = new ItemStack[] {
-                SimpleStorageItemStacks.DIE_ADVANCED,   new SlimefunItemStack(SimpleStorageItemStacks.NICKEL_SUPER_INGOT, 4), null,
+                SimpleStorageItemStacks.DIE_ADVANCED.item(),   new SlimefunItemStack(SimpleStorageItemStacks.NICKEL_SUPER_INGOT, 4).item(), null,
                 null,                null,                                             null,
                 null,                null,                                             null
     };
     protected static final ItemStack[] COMBINED_PLATE = new ItemStack[] {
-                SimpleStorageItemStacks.PEWTER_PLATE,   SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE, null,
+                SimpleStorageItemStacks.PEWTER_PLATE.item(),   SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE.item(), null,
                 null,                null,                                             null,
                 null,                null,                                             null
     };
     protected static final ItemStack[] DIE_BASIC = new ItemStack[] {
-            SimpleStorageItemStacks.ZAMAK_1,   null,   null,
+            SimpleStorageItemStacks.ZAMAK_1.item(),   null,   null,
             null,           null,   null,
             null,           null,   null
     };
     protected static final ItemStack[] DIE_REINFORCED = new ItemStack[] {
-            SimpleStorageItemStacks.ZAMAK_2,   null,   null,
+            SimpleStorageItemStacks.ZAMAK_2.item(),   null,   null,
             null,           null,   null,
             null,           null,   null
     };
     protected static final ItemStack[] DIE_ADVANCED = new ItemStack[] {
-            SimpleStorageItemStacks.ZAMAK_3,   null,   null,
+            SimpleStorageItemStacks.ZAMAK_3.item(),   null,   null,
             null,           null,   null,
             null,           null,   null
     };
     protected static final ItemStack[] THERMOCOUPLE = new ItemStack[] {
-                SimpleStorageItemStacks.NISIL,    SimpleStorageItemStacks.NICROSIL, null,
+                SimpleStorageItemStacks.NISIL.item(),    SimpleStorageItemStacks.NICROSIL.item(), null,
                 null,           null,           null,
                 null,           null,           null
     };
     protected static final ItemStack[] CHEST_CORE_BASIC = new ItemStack[] {
-            SimpleStorageItemStacks.ELECTRUM_PLATE, SimpleStorageItemStacks.ELECTRUM_PLATE, SimpleStorageItemStacks.ELECTRUM_PLATE,
-            SimpleStorageItemStacks.ELECTRUM_PLATE, SimpleStorageItemStacks.ANGELITE,   SimpleStorageItemStacks.ELECTRUM_PLATE,
-            SimpleStorageItemStacks.ELECTRUM_PLATE, SimpleStorageItemStacks.THERMOCOUPLE,  SimpleStorageItemStacks.ELECTRUM_PLATE
+            SimpleStorageItemStacks.ELECTRUM_PLATE.item(), SimpleStorageItemStacks.ELECTRUM_PLATE.item(), SimpleStorageItemStacks.ELECTRUM_PLATE.item(),
+            SimpleStorageItemStacks.ELECTRUM_PLATE.item(), SimpleStorageItemStacks.ANGELITE.item(),   SimpleStorageItemStacks.ELECTRUM_PLATE.item(),
+            SimpleStorageItemStacks.ELECTRUM_PLATE.item(), SimpleStorageItemStacks.THERMOCOUPLE.item(),  SimpleStorageItemStacks.ELECTRUM_PLATE.item()
     };
     protected static final ItemStack[] CHEST_CORE_REINFORCED = new ItemStack[] {
-            SimpleStorageItemStacks.CUPRONICKEL_PLATE, SimpleStorageItemStacks.CUPRONICKEL_PLATE, SimpleStorageItemStacks.CUPRONICKEL_PLATE,
-            SimpleStorageItemStacks.CUPRONICKEL_PLATE, SimpleStorageItemStacks.PROUSTITE,     SimpleStorageItemStacks.CUPRONICKEL_PLATE,
-            SimpleStorageItemStacks.CUPRONICKEL_PLATE, SimpleStorageItemStacks.THERMOCOUPLE,     SimpleStorageItemStacks.CUPRONICKEL_PLATE
+            SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(), SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(), SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(),
+            SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(), SimpleStorageItemStacks.PROUSTITE.item(),     SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(),
+            SimpleStorageItemStacks.CUPRONICKEL_PLATE.item(), SimpleStorageItemStacks.THERMOCOUPLE.item(),     SimpleStorageItemStacks.CUPRONICKEL_PLATE.item()
     };
     protected static final ItemStack[] CHEST_CORE_ADVANCED = new ItemStack[] {
-            SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.PEWTER_PLATE,
-            SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.SHORTITE, SimpleStorageItemStacks.PEWTER_PLATE,
-            SimpleStorageItemStacks.PEWTER_PLATE, SimpleStorageItemStacks.THERMOCOUPLE, SimpleStorageItemStacks.PEWTER_PLATE
+            SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.PEWTER_PLATE.item(),
+            SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.SHORTITE.item(), SimpleStorageItemStacks.PEWTER_PLATE.item(),
+            SimpleStorageItemStacks.PEWTER_PLATE.item(), SimpleStorageItemStacks.THERMOCOUPLE.item(), SimpleStorageItemStacks.PEWTER_PLATE.item()
     };
     protected static final ItemStack[] COMMUNICATION_BLOCK = new ItemStack[] {
-            SimpleStorageItemStacks.ELECTRUM_PLATE,    SlimefunItems.GOLD_24K_BLOCK,     SimpleStorageItemStacks.ELECTRUM_PLATE,
-            SlimefunItems.GOLD_24K, SimpleStorageItemStacks.CHEST_CORE_BASIC,             SlimefunItems.GOLD_24K,
-            SimpleStorageItemStacks.ELECTRUM_PLATE,    new ItemStack(Material.REPEATER), SimpleStorageItemStacks.ELECTRUM_PLATE
+            SimpleStorageItemStacks.ELECTRUM_PLATE.item(),    SlimefunItems.GOLD_24K_BLOCK.item(),     SimpleStorageItemStacks.ELECTRUM_PLATE.item(),
+            SlimefunItems.GOLD_24K.item(), SimpleStorageItemStacks.CHEST_CORE_BASIC.item(),             SlimefunItems.GOLD_24K.item(),
+            SimpleStorageItemStacks.ELECTRUM_PLATE.item(),    new ItemStack(Material.REPEATER), SimpleStorageItemStacks.ELECTRUM_PLATE.item()
     };
     protected static final ItemStack[] DISPLAY_PANEL = new ItemStack[] {
-            SimpleStorageItemStacks.CLEARQUARTZ,   SimpleStorageItemStacks.CLEARQUARTZ,                  SimpleStorageItemStacks.CLEARQUARTZ,
-            SimpleStorageItemStacks.PEWTER_PLATE, new ItemStack(Material.REPEATER), SimpleStorageItemStacks.PEWTER_PLATE,
-            SimpleStorageItemStacks.PEWTER_PLATE, SlimefunItems.BLISTERING_INGOT_3, SimpleStorageItemStacks.PEWTER_PLATE
+            SimpleStorageItemStacks.CLEARQUARTZ.item(),   SimpleStorageItemStacks.CLEARQUARTZ.item(),                  SimpleStorageItemStacks.CLEARQUARTZ.item(),
+            SimpleStorageItemStacks.PEWTER_PLATE.item(), new ItemStack(Material.REPEATER), SimpleStorageItemStacks.PEWTER_PLATE.item(),
+            SimpleStorageItemStacks.PEWTER_PLATE.item(), SlimefunItems.BLISTERING_INGOT_3.item(), SimpleStorageItemStacks.PEWTER_PLATE.item()
     };
     protected static final ItemStack[] DIE_PRESS = new ItemStack[] {
-            SimpleStorageItemStacks.ZAMAK_1, new ItemStack(Material.PISTON), SimpleStorageItemStacks.ZAMAK_1,
-            SimpleStorageItemStacks.ZAMAK_1, null,                           SimpleStorageItemStacks.ZAMAK_1,
-            SimpleStorageItemStacks.ZAMAK_2, new ItemStack(Material.PISTON), SimpleStorageItemStacks.ZAMAK_2
+            SimpleStorageItemStacks.ZAMAK_1.item(), new ItemStack(Material.PISTON), SimpleStorageItemStacks.ZAMAK_1.item(),
+            SimpleStorageItemStacks.ZAMAK_1.item(), null,                           SimpleStorageItemStacks.ZAMAK_1.item(),
+            SimpleStorageItemStacks.ZAMAK_2.item(), new ItemStack(Material.PISTON), SimpleStorageItemStacks.ZAMAK_2.item()
     };
     protected static final ItemStack[] METAL_PRESS_BASIC = new ItemStack[] {
-            SimpleStorageItemStacks.ZAMAK_3, new ItemStack(Material.STICKY_PISTON), SimpleStorageItemStacks.ZAMAK_3,
-            SimpleStorageItemStacks.ZAMAK_3, SimpleStorageItemStacks.DIE_BASIC,                        SimpleStorageItemStacks.ZAMAK_3,
-            SimpleStorageItemStacks.ZAMAK_3, new ItemStack(Material.STICKY_PISTON), SimpleStorageItemStacks.ZAMAK_3
+            SimpleStorageItemStacks.ZAMAK_3.item(), new ItemStack(Material.STICKY_PISTON), SimpleStorageItemStacks.ZAMAK_3.item(),
+            SimpleStorageItemStacks.ZAMAK_3.item(), SimpleStorageItemStacks.DIE_BASIC.item(),                        SimpleStorageItemStacks.ZAMAK_3.item(),
+            SimpleStorageItemStacks.ZAMAK_3.item(), new ItemStack(Material.STICKY_PISTON), SimpleStorageItemStacks.ZAMAK_3.item()
     };
     protected static final ItemStack[] ENDERATOR = new ItemStack[] {
-            SimpleStorageItemStacks.PEWTER_REINFORCED,      new ItemStack(Material.END_CRYSTAL), SimpleStorageItemStacks.PEWTER_REINFORCED,
-            SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, null,                                SimpleStorageItemStacks.CUPRONICKEL_REINFORCED,
-            SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, SimpleStorageItemStacks.SHORTITE,                   SimpleStorageItemStacks.CUPRONICKEL_REINFORCED
+            SimpleStorageItemStacks.PEWTER_REINFORCED.item(),      new ItemStack(Material.END_CRYSTAL), SimpleStorageItemStacks.PEWTER_REINFORCED.item(),
+            SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item(), null,                                SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item(),
+            SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item(), SimpleStorageItemStacks.SHORTITE.item(),                   SimpleStorageItemStacks.CUPRONICKEL_REINFORCED.item()
     };
     protected static final ItemStack[] CHEST_IRON = new ItemStack[] {
             new ItemStack(Material.IRON_BLOCK), new ItemStack(Material.IRON_BLOCK),     new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.IRON_BLOCK), SimpleStorageItemStacks.CHEST_CORE_BASIC,                   new ItemStack(Material.IRON_BLOCK),
-            new ItemStack(Material.IRON_BLOCK), SlimefunItems.REINFORCED_ALLOY_INGOT,   new ItemStack(Material.IRON_BLOCK)
+            new ItemStack(Material.IRON_BLOCK), SimpleStorageItemStacks.CHEST_CORE_BASIC.item(),                   new ItemStack(Material.IRON_BLOCK),
+            new ItemStack(Material.IRON_BLOCK), SlimefunItems.REINFORCED_ALLOY_INGOT.item(),   new ItemStack(Material.IRON_BLOCK)
     };
     protected static final ItemStack[] CHEST_GOLD = new ItemStack[] {
-            SlimefunItems.GOLD_24K_BLOCK, SimpleStorageItemStacks.CHEST_IRON,                  SlimefunItems.GOLD_24K_BLOCK,
-            SlimefunItems.GOLD_24K_BLOCK, SimpleStorageItemStacks.CHEST_CORE_REINFORCED,        SlimefunItems.GOLD_24K_BLOCK,
-            SlimefunItems.GOLD_24K_BLOCK, SlimefunItems.BLISTERING_INGOT_3,   SlimefunItems.GOLD_24K_BLOCK
+            SlimefunItems.GOLD_24K_BLOCK.item(), SimpleStorageItemStacks.CHEST_IRON.item(),                  SlimefunItems.GOLD_24K_BLOCK.item(),
+            SlimefunItems.GOLD_24K_BLOCK.item(), SimpleStorageItemStacks.CHEST_CORE_REINFORCED.item(),        SlimefunItems.GOLD_24K_BLOCK.item(),
+            SlimefunItems.GOLD_24K_BLOCK.item(), SlimefunItems.BLISTERING_INGOT_3.item(),   SlimefunItems.GOLD_24K_BLOCK.item()
     };
     protected static final ItemStack[] CHEST_DIAMOND = new ItemStack[] {
-            new ItemStack(Material.DIAMOND_BLOCK), SimpleStorageItemStacks.CHEST_GOLD,                new ItemStack(Material.DIAMOND_BLOCK),
-            new ItemStack(Material.DIAMOND_BLOCK), SimpleStorageItemStacks.CHEST_CORE_ADVANCED,        new ItemStack(Material.DIAMOND_BLOCK),
-            new ItemStack(Material.DIAMOND_BLOCK), SlimefunItems.BOOSTED_URANIUM,  new ItemStack(Material.DIAMOND_BLOCK)
+            new ItemStack(Material.DIAMOND_BLOCK), SimpleStorageItemStacks.CHEST_GOLD.item(),                new ItemStack(Material.DIAMOND_BLOCK),
+            new ItemStack(Material.DIAMOND_BLOCK), SimpleStorageItemStacks.CHEST_CORE_ADVANCED.item(),        new ItemStack(Material.DIAMOND_BLOCK),
+            new ItemStack(Material.DIAMOND_BLOCK), SlimefunItems.BOOSTED_URANIUM.item(),  new ItemStack(Material.DIAMOND_BLOCK)
     };
     protected static final ItemStack[] INVENTORY_CELL = new ItemStack[] {
-            SimpleStorageItemStacks.CHEST_DIAMOND, new ItemStack(Material.ENDER_PEARL, 16), null,
+            SimpleStorageItemStacks.CHEST_DIAMOND.item(), new ItemStack(Material.ENDER_PEARL, 16), null,
             null,               null,                                           null,
             null,               null,                                           null,
     };
     protected static final ItemStack[] CHEST_MASTER = new ItemStack[] {
-            SimpleStorageItemStacks.COMBINED_PLATE, SimpleStorageItemStacks.DISPLAY_PANEL,        SimpleStorageItemStacks.COMBINED_PLATE,
-            SimpleStorageItemStacks.COMBINED_PLATE, SimpleStorageItemStacks.CHEST_DIAMOND,        SimpleStorageItemStacks.COMBINED_PLATE,
-            SimpleStorageItemStacks.COMBINED_PLATE, SimpleStorageItemStacks.COMMUNICATION_BLOCK,  SimpleStorageItemStacks.COMBINED_PLATE
+            SimpleStorageItemStacks.COMBINED_PLATE.item(), SimpleStorageItemStacks.DISPLAY_PANEL.item(),        SimpleStorageItemStacks.COMBINED_PLATE.item(),
+            SimpleStorageItemStacks.COMBINED_PLATE.item(), SimpleStorageItemStacks.CHEST_DIAMOND.item(),        SimpleStorageItemStacks.COMBINED_PLATE.item(),
+            SimpleStorageItemStacks.COMBINED_PLATE.item(), SimpleStorageItemStacks.COMMUNICATION_BLOCK.item(),  SimpleStorageItemStacks.COMBINED_PLATE.item()
     };
     protected static final ItemStack[] AUGMENT_BARREL = new ItemStack[] {
-            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.COMBINED_PLATE,         new ItemStack(Material.OAK_PLANKS),
-            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.PROUSTITE,              new ItemStack(Material.OAK_PLANKS),
-            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.COMMUNICATION_BLOCK,    new ItemStack(Material.OAK_PLANKS)
+            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.COMBINED_PLATE.item(),         new ItemStack(Material.OAK_PLANKS),
+            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.PROUSTITE.item(),              new ItemStack(Material.OAK_PLANKS),
+            new ItemStack(Material.OAK_PLANKS), SimpleStorageItemStacks.COMMUNICATION_BLOCK.item(),    new ItemStack(Material.OAK_PLANKS)
     };
 }

@@ -30,10 +30,10 @@ public final class MetalPressBasic extends AContainer implements RecipeDisplayIt
 
     @Override
     protected void registerDefaultRecipes() {
-        registerRecipe(20, new ItemStack[]{SimpleStorageItemStacks.DIE_BASIC, new SlimefunItemStack(SimpleStorageItemStacks.ELECTRUM_INGOT, 4)}, new ItemStack[]{SimpleStorageItemStacks.ELECTRUM_PLATE});
-        registerRecipe(40, new ItemStack[]{SimpleStorageItemStacks.DIE_REINFORCED, new SlimefunItemStack(SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, 4)}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_PLATE});
-        registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.DIE_ADVANCED, new SlimefunItemStack(SimpleStorageItemStacks.PEWTER_REINFORCED, 4)}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE});
-        registerRecipe(120, new ItemStack[]{SimpleStorageItemStacks.DIE_ADVANCED, new SlimefunItemStack(SimpleStorageItemStacks.NICKEL_SUPER_INGOT, 4)}, new ItemStack[]{SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE});
+        registerRecipe(20, new ItemStack[]{SimpleStorageItemStacks.DIE_BASIC.item(), new SlimefunItemStack(SimpleStorageItemStacks.ELECTRUM_INGOT, 4).item()}, new ItemStack[]{SimpleStorageItemStacks.ELECTRUM_PLATE.item()});
+        registerRecipe(40, new ItemStack[]{SimpleStorageItemStacks.DIE_REINFORCED.item(), new SlimefunItemStack(SimpleStorageItemStacks.CUPRONICKEL_REINFORCED, 4).item()}, new ItemStack[]{SimpleStorageItemStacks.CUPRONICKEL_PLATE.item()});
+        registerRecipe(60, new ItemStack[]{SimpleStorageItemStacks.DIE_ADVANCED.item(), new SlimefunItemStack(SimpleStorageItemStacks.PEWTER_REINFORCED, 4).item()}, new ItemStack[]{SimpleStorageItemStacks.PEWTER_PLATE.item()});
+        registerRecipe(120, new ItemStack[]{SimpleStorageItemStacks.DIE_ADVANCED.item(), new SlimefunItemStack(SimpleStorageItemStacks.NICKEL_SUPER_INGOT, 4).item()}, new ItemStack[]{SimpleStorageItemStacks.NICKEL_SUPERALLOY_PLATE.item()});
     }
 
     @Override

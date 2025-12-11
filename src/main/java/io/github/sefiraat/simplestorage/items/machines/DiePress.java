@@ -34,9 +34,9 @@ public final class DiePress extends AContainer implements RecipeDisplayItem {
 
     @Override
     protected void registerDefaultRecipes() {
-        addRecipe(20, SimpleStorageItemStacks.ZAMAK_1, SimpleStorageItemStacks.DIE_BASIC);
-        addRecipe(30, SimpleStorageItemStacks.ZAMAK_2, SimpleStorageItemStacks.DIE_REINFORCED);
-        addRecipe(40, SimpleStorageItemStacks.ZAMAK_3, SimpleStorageItemStacks.DIE_ADVANCED);
+        addRecipe(20, SimpleStorageItemStacks.ZAMAK_1.item(), SimpleStorageItemStacks.DIE_BASIC.item());
+        addRecipe(30, SimpleStorageItemStacks.ZAMAK_2.item(), SimpleStorageItemStacks.DIE_REINFORCED.item());
+        addRecipe(40, SimpleStorageItemStacks.ZAMAK_3.item(), SimpleStorageItemStacks.DIE_ADVANCED.item());
     }
 
     @Override

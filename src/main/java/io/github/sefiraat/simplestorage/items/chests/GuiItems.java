@@ -17,16 +17,16 @@ public final class GuiItems {
         throw new IllegalStateException("Utility class");
     }
 
-    public static CustomItemStack menuBackground() {
-        return new CustomItemStack(
+    public static ItemStack menuBackground() {
+        return CustomItemStack.create(
                 Material.GRAY_STAINED_GLASS_PANE,
                 Theme.PASSIVE + "Simple!",
                 ""
         );
     }
 
-    public static CustomItemStack menuInfo() {
-        return new CustomItemStack(
+    public static ItemStack menuInfo() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_NO1)),
                 Theme.GUI_HEAD + "Info",
                 "",
@@ -34,8 +34,8 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuChestPageBack() {
-        return new CustomItemStack(
+    public static ItemStack menuChestPageBack() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_BACK)),
                 Theme.GUI_HEAD + "Back",
                 "",
@@ -43,8 +43,8 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuChestPageForward() {
-        return new CustomItemStack(
+    public static ItemStack menuChestPageForward() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_FORWARD)),
                 Theme.GUI_HEAD + "Forward",
                 "",
@@ -52,36 +52,36 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuChestDummy() {
-        return new CustomItemStack(
+    public static ItemStack menuChestDummy() {
+        return CustomItemStack.create(
                 Material.LIGHT_GRAY_STAINED_GLASS_PANE,
                 Theme.PASSIVE + "No item here"
         );
     }
 
-    public static CustomItemStack menuMasterDummy() {
-        return new CustomItemStack(
+    public static ItemStack menuMasterDummy() {
+        return CustomItemStack.create(
                 Material.LIGHT_GRAY_STAINED_GLASS_PANE,
                 Theme.PASSIVE + "No inventory here"
         );
     }
 
-    public static CustomItemStack menuClose() {
-        return new CustomItemStack(
+    public static ItemStack menuClose() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_CLOSE)),
                 Theme.GUI_HEAD + "Close"
         );
     }
 
-    public static CustomItemStack menuRenameCell() {
-        return new CustomItemStack(
+    public static ItemStack menuRenameCell() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_RENAME_CELL)),
                 Theme.GUI_HEAD + "Rename Cell"
         );
     }
 
-    public static CustomItemStack menuSetMaterial() {
-        return new CustomItemStack(
+    public static ItemStack menuSetMaterial() {
+        return CustomItemStack.create(
                 PlayerHead.getItemStack(PlayerSkin.fromBase64(Skulls.GUI_SET_ICON)),
                 Theme.GUI_HEAD + "Set Icon",
                 "",
@@ -90,7 +90,7 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuCell(NetworkElement ne) {
+    public static ItemStack menuCell(NetworkElement ne) {
 
         ItemStack i = NetworkElement.getItemStack(ne);
         String name;
@@ -113,8 +113,8 @@ public final class GuiItems {
         }
     }
 
-    public static CustomItemStack menuCellNormal(ItemStack i, String name) {
-        return new CustomItemStack(
+    public static ItemStack menuCellNormal(ItemStack i, String name) {
+        return CustomItemStack.create(
                 i,
                 Theme.GUI_HEAD + name,
                 "",
@@ -125,9 +125,9 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuCellBarrel(ItemStack i, String name, NetworkElement networkElement) {
+    public static ItemStack menuCellBarrel(ItemStack i, String name, NetworkElement networkElement) {
         String barrelAmount = Theme.ITEM_TYPEDESC + "Content: " + ChatColor.WHITE + networkElement.getBarrelAmount();
-        return new CustomItemStack(
+        return CustomItemStack.create(
                 i,
                 Theme.GUI_HEAD + name,
                 "",
@@ -140,8 +140,8 @@ public final class GuiItems {
         );
     }
 
-    public static CustomItemStack menuCellError() {
-        return new CustomItemStack(
+    public static ItemStack menuCellError() {
+        return CustomItemStack.create(
                 Material.BARRIER,
                 Theme.GUI_HEAD + "Scanned Inventory (Error)",
                 "",
